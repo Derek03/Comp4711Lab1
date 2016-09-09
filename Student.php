@@ -25,7 +25,7 @@ class Student {
     }
     
     function add_grade($grade) {
-        $this->grade[] = $grade;
+        $this->grades[] = $grade;
     }
     
     function average() {
