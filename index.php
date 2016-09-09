@@ -44,7 +44,7 @@ and open the template in the editor.
         $me->first_name = "Derek";
         $me->add_email('home','derek.braden.larson@gmail.com');
         $me->add_grade(95);
-        $me->add_grade(83);
+        $me->add_grade(81);
         $me->add_grade(79);
         $students['a009'] = $me;
         
