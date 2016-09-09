@@ -38,6 +38,16 @@ and open the template in the editor.
         $second->add_grade(50);
         $students['a456'] = $second;
         
+        // adding myself
+        $me = new Student();
+        $me->surname = "Larson";
+        $me->first_name = "Derek";
+        $me->add_email('home','derek.braden.larson@gmail.com');
+        $me->add_grade(95);
+        $me->add_grade(83);
+        $me->add_grade(79);
+        $students['a009'] = $me;
+        
         // sort the students
         ksort($students);
         
