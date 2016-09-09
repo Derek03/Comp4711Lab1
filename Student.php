@@ -34,7 +34,7 @@ class Student {
             $total += $value;
         }
         return $total / count($this->grades);
-        } 
+    } 
 
     function toString() {
         $result = $this->first_name . ' ' . $this->surname;
